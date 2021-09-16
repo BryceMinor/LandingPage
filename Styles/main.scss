@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap');
+
+body {
+    font-family: 'Prompt', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: lightblue;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: coral;
+    color: mediumblue;
+    min-height: 70px;
+    border-bottom: 5px solid darkblue;
+    padding: 5px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+header a {
+    color: mediumblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header a:hover {
+    color: darkblue;
+    font-weight: bold;
+}
+
+#logo {
+    min-height: 600px;
+    background-image: url(../stuff.jpeg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: mediumblue;
+}
+
+#logo h1 {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 100px;
+    -webkit-text-stroke: 3px cornflowerblue;
+}
+#logo h2 {
+    margin-top: 50px;
+    font-size: 55px;
+    -webkit-text-stroke: 3px cornflowerblue;
+}
+#logo button {
+    margin-bottom: 10px;
+    font-size: 55px;
+    color: coral;
+    background-color: mediumblue;
+    border: 5px solid cornflowerblue;  
+}
+
+#logo button:hover {
+        background-color: darkblue;
+        color: darkorange;
+        border: 5px solid blue;
+}
